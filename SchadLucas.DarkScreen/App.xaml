@@ -1,0 +1,13 @@
+﻿<Application x:Class="SchadLucas.DarkScreen.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:math="clr-namespace:SchadLucas.DarkScreen.Converter.Math">
+    <Application.Resources>
+        <ResourceDictionary>
+            <math:AddConverter x:Key="Converter.Math.Add" />
+            <math:SubConverter x:Key="Converter.Math.Sub" />
+            <math:MulConverter x:Key="Converter.Math.Mul" />
+            <math:DivConverter x:Key="Converter.Math.Div" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
